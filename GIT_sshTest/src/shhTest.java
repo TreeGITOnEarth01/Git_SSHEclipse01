@@ -35,6 +35,10 @@ public class shhTest {
         long bigLongLiteralValue = 2_147_483_647_234L;
         System.out.println(bigLongLiteralValue);
 		
-		
+        float floatValue = 7.12f;
+        float floatValue2 = (float)7.12;
+        double dblValue = 65.29d;
+        double s = dblValue + floatValue2;
+		System.out.println(s);
 	}
 }
